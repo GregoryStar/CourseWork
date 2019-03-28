@@ -1,0 +1,33 @@
+login: starx013, nusse007
+date: 04/13/18
+name: Gregory Star, Malik Nusseibeh
+id: 5191430, 4978826
+
+The purpose of this program is to tally the votes (stored in files) of various
+districts and declare the winner of an election. The districts, and their relationships, 
+are stored in an input file. Based on the input file a directory structure is 
+created and the files in the input directory are decrypted and stored.
+Once the winner is determined, it is output to a file in the root of an output directory. 
+Threads are called to aggregate and propagate results of each leaf file up the directory.
+In the end, all threads synchonize, and a final result is reached.
+
+Did not attempt bonus
+
+Contribution:
+  Gregory Star
+	Wrote queue logic and data structure.
+	Wrote data structure for threads.
+	Wrote data structure for file mutexes.
+	Wrote character decrypt function.
+	Wrote parts of build directory function.
+	Wrote logic to add leaf files to queue and spawn threads.
+	Helped with debugging process.
+
+  Malik Nusseibeh
+	Wrote create directory and output directory functions.
+	Wrote parts of build directory function.
+	Wrote decrypt file function.
+	Merged functions used in Assignment-2 into program.
+	Wrote logic for locking mutexes for writing to files and log.txt
+	Wrote split function to replace makeargv    
+	Created Makefile

@@ -1,0 +1,66 @@
+player_params
+battery_max_charge 100.0
+angle_delta 10
+collision_delta 1
+radius 20.0
+pos 500 500
+color 0 0 255 255
+robot_params
+angle_delta 10
+collision_delta 1
+radius 20.0
+pos 800 175
+color 0 0 255 255
+robot_params
+angle_delta 10
+collision_delta 1
+radius 20.0
+pos 270 280
+color 0 0 255 255
+robot_params
+angle_delta 10
+collision_delta 1
+radius 20.0
+pos 950 605
+color 0 0 255 255
+robot_params
+angle_delta 10
+collision_delta 1
+radius 20.0
+pos 740 400
+color 0 0 255 255
+robot_params
+angle_delta 10
+collision_delta 1
+radius 20.0
+pos 200 630
+color 0 0 255 255
+recharge_station_params
+radius 20.0
+pos 500 300
+color 0 128 128 255
+home_base_params
+collision_delta 1
+radius 20.0
+pos 400 400
+color 255 0 0 255
+obstacle_params
+radius 30.0
+pos 200 200
+color 255 255 255 255
+obstacle_params
+radius 10.0
+pos 170 500
+color 255 255 255 255
+obstacle_params
+radius 40.0
+pos 600 400
+color 255 255 255 255
+obstacle_params
+radius 35.0
+pos 800 100
+color 255 255 255 255
+obstacle_params
+radius 15.0
+pos 860 600
+color 255 255 255 255

@@ -1,0 +1,6 @@
+Names: Gregory Star, Malik Nusseibeh
+x500s: starx013, nusse007
+Lecture Section: Gregory and Malik are in section 10
+Extra Credit: We have implemented extra credit
+
+NOTE: The test cases only work between our own server and client. When trying to test our server and client using the provided server-debug and client-debug programs, we got strange results. However, our server/client match the output of the provided server/client for all provided test cases. It is not specified in the instructions how the server and client will be tested for correctness, but we assume you will use our own client/server.

@@ -1,0 +1,30 @@
+The purpose of this program is to tally the votes of various districts (stored
+in files), and declare the winner of an election, which is output to a file.
+
+Compile the program by running "make" in the terminal.
+
+run "./votecounter.o input.txt" in the terminal
+(input.txt should be in current working directory)
+
+- Parses input from 'input.txt' line by line
+- Constructs a tree of the regions as an array of nodes
+- Creates a process hierarchy which matches the tree structure
+- Executes 'leafcounter' on the leaf nodes of the tree
+- The results are output to files which are used as inputs for the next step
+- Processes which are not leafs must wait for their children to finish.
+- Executes 'aggregate_votes' on output files created by children of node for
+  nodes that are parents, but not the root node.
+- Executes 'Who_Won' on head node.
+Various checks are done to ensure the input is valid along the way. Among which
+is a check for cycles. If a cycle is found, the program halts execution.
+
+Gregory Star: starx013
+Wrote most logic for parsing lines. Created tree of nodes from parsed input.
+Created process hierarchy. Called exec on all processes. Wrote cycle finder.
+
+Malik Nusseibeh: nusse007
+Assisted in writing C code from logic.
+Fixed MAJOR errors and bugs.
+Tested for edge cases.
+Parse input to ignore comments and empty lines.
+Created makefile.

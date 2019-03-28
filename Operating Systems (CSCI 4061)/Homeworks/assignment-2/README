@@ -1,0 +1,23 @@
+login: starx013, nusse007
+date: 03/08/18
+name: Gregory Star, Malik Nusseibeh
+id: 5191430, 4978826
+
+The purpose of this program is to tally the votes (stored in files) of various
+districts (stored in directories), and declare the winner of an election,
+which is output to a file in the directory specified by  the program.
+
+Did not attempt bonus
+
+Contribution:
+  Gregory Star
+    Wrote the data structure in Leaf_Counter
+    Wrote the majority of the Aggregate_votes program
+    Handled cases and error checking
+
+  Malik Nusseibeh
+    Wrote the file i/o logic of Leaf_Counter
+    Debugged pieces of Aggregate_Votes
+    Wrote the majority of the Vote_Counter program
+    Handled cases and error checking
+    Created Makefile
